@@ -26,19 +26,30 @@ import java.util.*;
 
 // Sum n numbers
 
+// public class Basic {
+//     public static void main(String args[]){
+
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter please any number");
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         int start = 1;
+//         while (start <= n){
+//            sum += start;
+//             start ++;
+//         }
+
+//         System.out.print("Totle sum of natural numbers" + " " + sum);
+//     }
+// }
+
 public class Basic {
     public static void main(String args[]){
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter please any number");
-        int n = sc.nextInt();
-        int sum = 0;
-        int start = 1;
-        while (start <= n){
-           sum += start;
-            start ++;
+        int n = 15;
+        int i = 1;
+        while(i<n){
+            System.out.println(i);
+            i *=2;
         }
-
-        System.out.print("Totle sum of natural numbers" + " " + sum);
     }
 }
