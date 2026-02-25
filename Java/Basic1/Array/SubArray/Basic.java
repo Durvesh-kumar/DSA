@@ -5,7 +5,7 @@ public class Basic {
             for(int j = i+1; j<arr.length; j++){
                 int end = arr[j];
                 for(int k = start; k<end; k++){
-                    System.out.print(arr[k]);
+                    System.out.print(arr[k] + " ");
                 }
                 System.out.println();
             }
